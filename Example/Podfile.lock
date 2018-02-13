@@ -1,0 +1,16 @@
+PODS:
+  - StrnSegmentedControl (0.1.0)
+
+DEPENDENCIES:
+  - StrnSegmentedControl (from `../`)
+
+EXTERNAL SOURCES:
+  StrnSegmentedControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  StrnSegmentedControl: c3dbd9c3cd2d360b74791a06c9a18f21469ecdc3
+
+PODFILE CHECKSUM: 214eca1abb8cf7454a644ef5755a3c8003862491
+
+COCOAPODS: 1.2.1

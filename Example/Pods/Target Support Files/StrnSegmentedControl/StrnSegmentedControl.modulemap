@@ -1,0 +1,6 @@
+framework module StrnSegmentedControl {
+  umbrella header "StrnSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
