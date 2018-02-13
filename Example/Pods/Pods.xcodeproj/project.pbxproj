@@ -13,8 +13,8 @@
 		5BCF1EA5AD90BBE5BC411B7F3110B12C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		92C7F91EA800A6F3403F58CC249CF816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AA708AC3A3E25042D6CBDC8C6B12E822 /* StrnSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A2B884AAF5A5F950C9AEE6A556805C /* StrnSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF9BD0352032E8A7004EC8C0 /* SKSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9BD0332032E8A7004EC8C0 /* SKSegmentedControl.h */; };
-		EF9BD0362032E8A7004EC8C0 /* SKSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD0342032E8A7004EC8C0 /* SKSegmentedControl.m */; };
+		EF9BD0352032E8A7004EC8C0 /* StrnSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9BD0332032E8A7004EC8C0 /* StrnSegmentedControl.h */; };
+		EF9BD0362032E8A7004EC8C0 /* StrnSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9BD0342032E8A7004EC8C0 /* StrnSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +48,8 @@
 		DB720870FA883FDAF51328A5F2CD3288 /* Pods-StrnSegmentedControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StrnSegmentedControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5C1D79BB3404F7AC51540C9488DD369 /* StrnSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = StrnSegmentedControl.modulemap; sourceTree = "<group>"; };
 		E74ABA8B33BC5C936A1C0D720BF7F289 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF9BD0332032E8A7004EC8C0 /* SKSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSegmentedControl.h; sourceTree = "<group>"; };
-		EF9BD0342032E8A7004EC8C0 /* SKSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSegmentedControl.m; sourceTree = "<group>"; };
+		EF9BD0332032E8A7004EC8C0 /* StrnSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrnSegmentedControl.h; sourceTree = "<group>"; };
+		EF9BD0342032E8A7004EC8C0 /* StrnSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrnSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +93,8 @@
 		23351722572F23965D59BFCCDED38426 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EF9BD0332032E8A7004EC8C0 /* SKSegmentedControl.h */,
-				EF9BD0342032E8A7004EC8C0 /* SKSegmentedControl.m */,
+				EF9BD0332032E8A7004EC8C0 /* StrnSegmentedControl.h */,
+				EF9BD0342032E8A7004EC8C0 /* StrnSegmentedControl.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35C4BEEB39EF873AA82DD7E1B1166BB5 /* Pods-StrnSegmentedControl_Tests-umbrella.h in Headers */,
-				EF9BD0352032E8A7004EC8C0 /* SKSegmentedControl.h in Headers */,
+				EF9BD0352032E8A7004EC8C0 /* StrnSegmentedControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF9BD0362032E8A7004EC8C0 /* SKSegmentedControl.m in Sources */,
+				EF9BD0362032E8A7004EC8C0 /* StrnSegmentedControl.m in Sources */,
 				2FD4B879F6D34EDFF13B51CADD834F1B /* Pods-StrnSegmentedControl_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
