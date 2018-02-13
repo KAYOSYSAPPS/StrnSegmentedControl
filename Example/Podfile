@@ -1,0 +1,6 @@
+use_frameworks!
+target 'StrnSegmentedControl_Tests' do
+  pod 'StrnSegmentedControl', :path => '../'
+  
+  
+end
